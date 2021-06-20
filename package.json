@@ -1,15 +1,27 @@
 {
-  "name": "entregable",
+  "name": "ServerTStoJS5",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
+    "tsc": "tsc ./server.ts -w",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "typescript": "^4.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablofedericosantillan/Clase-14---Parte-1.git"
+  },
+  "keywords": [],
+  "homepage": "http:// ",
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/pablofedericosantillan/Clase-14---Parte-1/issues"
+  },
+  "description": ""
 }
