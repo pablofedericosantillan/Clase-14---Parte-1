@@ -1,15 +1,28 @@
 {
-  "name": "entregable",
+  "name": "ServerES6toJS5",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
+    "babel": "babel ./server.es6.js -o ./server.js -w",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablofedericosantillan/Clase-14---Parte-1.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": ""
+  },
+  "homepage": " ",
+  "description": ""
 }
